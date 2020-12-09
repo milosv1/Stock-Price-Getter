@@ -1,2 +1,2 @@
 # Stock-Price-Getter
-Simple Python 3 script to get prices of stocks in an Industry, for example using the command --tech tech will get you prices of stocks in the Tech industry, Google, Apple etc. 
+Python 3 script to get prices of stocks in a specific industry. For example using the command --tech tech, Will get you prices of stocks in the Tech industry i.e Google, Apple etc. 
