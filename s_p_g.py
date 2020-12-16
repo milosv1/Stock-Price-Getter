@@ -1,12 +1,12 @@
 #s_p_g.py 
 #This script allows the user to get stock prices from companies within a specific industry.
-#As an example, when you use the command "--tech tech" you will be getting pricing of stocks from that industry i.e Google, Apple etc.
+#As an example, when you use the command "tech" you will be getting pricing of stocks from that industry i.e Google, Apple etc.
 import os
 import time
 import sys
 import cmd
 
-# [TODO] need to get an alpha vantage api so we can get stock data. 
+# [TODO] need to get an Alpha Vantage API so we can start getting stock data. 
 class PriceGetterShell(cmd.cmd):
 
     intro = "Welcome to the Price Getter Shell. Type ? or help to list commands. \n"
@@ -16,7 +16,6 @@ class PriceGetterShell(cmd.cmd):
     #---- Your commands go below here
 
     def exit_shell(self, arg):
-        #'Stop recording, close the window, and exit: BYE'
         print("Thank you for using Price Getter Shell")
         self.close()
         exit_shell()
